@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">practical4</string>
+    <string name="app_title_txt">Chat App</string>
 </resources>

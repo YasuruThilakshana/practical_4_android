@@ -19,10 +19,11 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
     @Override
     public Fragment createFragment(int position) {
        if(position == 1){
-           return new SignInFragment();
+           return  new SignUpFragment();
        }
 
-       return  new SignUpFragment();
+
+        return new SignInFragment();
 
     }
 
